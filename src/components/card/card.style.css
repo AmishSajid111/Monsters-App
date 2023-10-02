@@ -5,13 +5,16 @@
     background-color: #57439f54;
     border:1px solid grey;
     border-radius: 5px;
-    padding: 25px;
-    margin-top: 12px;
-    margin-left: 12px;
+  
     cursor: pointer;
     backface-visibility: hidden;
     transform: translateZ(0);
     transition: transform 0.25 ease-out;
+    width: 220px;
+  
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
 }
 .card-container:hover
 {
